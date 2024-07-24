@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.51a95d30.css",
-    "main.js": "/Portfolio/static/js/main.338b64e6.js",
+    "main.js": "/Portfolio/static/js/main.6284c781.js",
     "static/media/Foodie_App_snapshot.png": "/Portfolio/static/media/Foodie_App_snapshot.e17e5f11d455271c603d.png",
     "static/media/selfImage.png": "/Portfolio/static/media/selfImage.d12e263dd71fc1a5e9bb.png",
     "static/media/cointracker_snapshot.png": "/Portfolio/static/media/cointracker_snapshot.15b5d2687da83827d22f.png",
@@ -13,10 +13,10 @@
     "static/media/expense-tracker_snapshot.png": "/Portfolio/static/media/expense-tracker_snapshot.89d2cbdee754f2cf80e4.png",
     "index.html": "/Portfolio/index.html",
     "main.51a95d30.css.map": "/Portfolio/static/css/main.51a95d30.css.map",
-    "main.338b64e6.js.map": "/Portfolio/static/js/main.338b64e6.js.map"
+    "main.6284c781.js.map": "/Portfolio/static/js/main.6284c781.js.map"
   },
   "entrypoints": [
     "static/css/main.51a95d30.css",
-    "static/js/main.338b64e6.js"
+    "static/js/main.6284c781.js"
   ]
 }
