@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -33,14 +33,19 @@ header {
 
 .myself {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
+  width: 25rem;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  left: calc(50% - 11rem);
+  margin: 2rem auto;
+  border-radius: 12rem 12rem 0 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+
+.myself img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .scroll__down {
@@ -50,12 +55,14 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+  transition: transform 0.2s ease;
+  /* Add transition for smooth rotation */
 }
 
 .scroll__down:hover {
   transform: rotate(0deg);
-  transition: 0.2s ease;
 }
+
 
 /* ----------For Medium Devices ---------------- */
 @media screen and (max-width: 1024px) {
@@ -63,12 +70,16 @@ header {
     height: 68vh;
   }
 }
-
 /* ----------For Small Devices ---------------- */
 
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+  }
+
+  .myself {
+    width: 90%;
+    aspect-ratio: 1;
   }
 
   .header__socials,
